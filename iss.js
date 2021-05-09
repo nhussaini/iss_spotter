@@ -65,7 +65,7 @@ const nextISSTimesForMyLocation = function(callback) {
       return callback(error, null);
     }
 
-    fetchCoordsByIP(ip, (error, loc) => {
+    fetchCoordsByIP(ip, (error, loc) => {ls
       if (error) {
         return callback(error, null);
       }
